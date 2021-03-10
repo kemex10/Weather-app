@@ -1,0 +1,160 @@
+body {
+  background-color: rgb(130, 200, 223);
+  font-family: Proxima Nova, sans-serif;
+}
+
+.appWrap {
+  height: 100vh;
+}
+
+.homePageWrap {
+  margin-top: 10%;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: rgb(130, 200, 223);
+  margin-bottom: 8%;
+  font-size: 3.5vw;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonHomePage {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.buttonClass {
+  border-radius: 10px;
+  border-style: none;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  background-color: rgb(115, 136, 211);
+  color: white;
+  width: 100%;
+  font-size: 100%;
+}
+
+button:hover {
+  color: rgb(40, 59, 110);
+  cursor: pointer;
+}
+
+.firstButton {
+  border-radius: 10px;
+  border-style: none;
+  background-color: rgb(115, 136, 211);
+  color: white;
+  font-size: 100%;
+  margin-bottom: 2%;
+  padding: 5px;
+}
+
+.buttonWrap{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2%;
+
+}
+.inLineBold {
+  font-weight: 900;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.temp {
+  margin: 5%;
+}
+
+.cityClass {
+  margin: 2%;
+}
+
+.description {
+  margin: 2%;
+}
+
+.localWeatherTitle {
+  display: flex;
+  justify-content: center;
+}
+
+.inputLabel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 3%;
+}
+input {
+  border-radius: 5px;
+  border-style: none;
+  padding-left: 1%;
+  margin-left: 1%;
+  font-size: 85%;
+}
+.inputLabel::placeholder {
+  margin-right: 3%;
+}
+
+.inputWrap {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.disabled-link {
+  pointer-events: none;
+  
+}
+
+.textCenter{
+  text-align: center;
+  color: rgb(49, 49, 49);
+}
+
+.wrapBoxColor {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 3%;
+  padding-top: 2%;
+  padding-bottom: 4%;
+  background-color: rgb(184, 215, 235);
+  border-radius: 5px;
+}
+
+.button {
+  border-radius: 10px;
+  border-style: none;
+  background-color: rgb(115, 136, 211);
+  color: white;
+  font-size: 100%;
+  margin-bottom: 2%;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.compareTemp {
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+  font-size: 20px;
+}
+
+.compareTempBut{
+  display: flex;
+  justify-content: center;
+}
